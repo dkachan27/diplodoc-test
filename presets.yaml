@@ -1,0 +1,5 @@
+default:
+  organization-module-enabled: true
+  shopping-cart-module-enabled: true
+332:
+  shopping-cart-module-enabled: false

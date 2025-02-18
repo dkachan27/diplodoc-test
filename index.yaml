@@ -1,0 +1,6 @@
+title: Nora Middleware Documentation
+description: Nora Middleware Documentation - write the documentation for your users
+links:
+- title: Dashboard
+  description: Description of all the options for contacting us
+  href: pages/dashboard/index.md
