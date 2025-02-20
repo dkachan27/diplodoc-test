@@ -1,5 +1,13 @@
 default:
-  organization-module-enabled: true
-  shopping-cart-module-enabled: true
+  provider-id: ""
+  custom-content: false
+  dashboard-module-enabled: true
+  partners-module-enabled: false
 332:
-  shopping-cart-module-enabled: false
+  provider-id: 332
+  custom-content: true
+  partners-module-enabled: true
+331:
+  provider-id: 331
+  custom-content: true
+  partners-module-enabled: false

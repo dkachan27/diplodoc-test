@@ -1,6 +1,11 @@
-title: Nora Middleware Documentation
+title: Nora Middleware Documentation - {{ provider-id }}
 description: Nora Middleware Documentation - write the documentation for your users
 links:
 - title: Dashboard
-  description: Description of all the options for contacting us
+  description: Dashboard is an information management tool that visually tracks and displays real-time statistical data and key metrics to monitor the current situation of business.
   href: pages/dashboard/index.md
+  when: dashboard-module-enabled == true
+- title: Partners
+  description: Module is intended for Partner Programs management.
+  href: pages/partners/index.md
+  when: partners-module-enabled == true

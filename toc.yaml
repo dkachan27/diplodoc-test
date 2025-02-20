@@ -7,7 +7,7 @@ navigation:
     dark:
       icon: "https://keycloak.spnode.net/resources/tlpk2/login/demo_dark/img/Nora-Logo_dark.svg"
     light:
-      icon: "https://storage.yandexcloud.net/diplodoc-www-assets/navigation/diplodoc-logo.svg"
+      icon: "_assets/modules/img.png"
   header:
     leftItems:
       - text: "Overview"
@@ -22,5 +22,7 @@ navigation:
 items:
   - name: Dashboard
     href: pages/dashboard/index.md
-  - name: Rules
-    href: rules.md
+    when: dashboard-module-enabled == true
+  - name: Partners
+    href: pages/partners/index.md
+    when: partners-module-enabled == true

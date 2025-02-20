@@ -55,11 +55,15 @@ Available actions:
    - External Payment 
    - Gr4vy ||
 |#
-
 {wide-content title="Subscriber Graphs Configuration’s description"}
 
 Payment Information Cards Configuration
 
+{% if custom-content == true %}
+
+{% include [Content](custom/{{provider-id}}.md) %}
+
+{% endif %}
 
 Path: Dashboard (sidebar menu) > Dashboard> Setup Menu: Payment Information Cards
 
